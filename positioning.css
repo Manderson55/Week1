@@ -1,0 +1,81 @@
+/**
+ * Positioning Layout Activity
+ **/
+
+* {
+  
+}
+
+body {
+  
+}
+
+#mainArea {
+  align: center;
+  width: 600px;
+  margin: 0 auto;
+ 
+
+}
+
+
+#fixed {
+  position: fixed;
+  top:0;
+  left:0;
+  color: black;
+  background: grey;
+  width: 80px;
+  height: 60px;
+}
+
+#middle {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #888;
+  float: left;
+  width: 34%;
+}
+
+#right {
+	 padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #666;
+  float: left;
+  width: 33%;
+}
+
+#full {
+  clear: both;	
+  overflow: auto;
+  background: #ccc;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  color: #333;
+  background: #6ea3da;
+}
+
+aside {
+  padding: 20px;
+  margin: 20px;
+  color: #333;
+  background: #eee;
+  float: left;
+  width:33%;
+  height: 200px;
+
+}
+
+footer {
+	padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
